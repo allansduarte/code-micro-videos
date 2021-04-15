@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\Api;
 
+use App\Http\Controllers\Controller;
 use App\Models\Genre;
 use Illuminate\Http\Request;
-use phpDocumentor\Reflection\DocBlock\Tags\Generic;
 
 class GenreController extends Controller
 {

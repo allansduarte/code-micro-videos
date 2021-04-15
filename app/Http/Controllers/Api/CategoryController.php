@@ -8,7 +8,6 @@ use Illuminate\Http\Request;
 
 class CategoryController extends Controller
 {
-
     private $rules = [
         'name' => 'required|max:255',
         'is_active' => 'boolean'
