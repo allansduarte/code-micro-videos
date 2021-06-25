@@ -7,7 +7,7 @@ use App\Models\Genre;
 use App\Models\Traits\Uuid;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use Illuminate\Foundation\Testing\DatabaseMigrations;
-use PHPUnit\Framework\TestCase;
+use Tests\TestCase;
 
 class CategoryTest extends TestCase
 {
